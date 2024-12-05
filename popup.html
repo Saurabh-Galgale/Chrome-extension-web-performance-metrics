@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Browser Performance</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        width: 500px;
+        padding: 16px;
+        background-color: #b9d6b9;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .title-container {
+        display: flex;
+        align-items: center;
+        color: rgb(211, 128, 69);
+        margin-bottom: 16px;
+      }
+      .title-container h1 {
+        font-size: 1.5rem; /* text-2xl */
+        font-weight: bold;
+        margin-left: 8px;
+      }
+      #metrics {
+        padding: 16px;
+        font-size: medium;
+        background-color: #ffffff;
+        border-radius: 2px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .icon {
+        width: 26px;
+        height: 26px;
+      }
+      .footer { 
+        text-align: center; 
+        color: rgb(85, 84, 84); 
+        margin-top: 25px; 
+      }
+      .footer-text {
+        text-align: center;
+        font-size: medium; 
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-container">
+        <img src="icons/icon46.svg" alt="Icon" class="icon">
+        <h1>Performance Metrics</h1>
+      </div>
+      <div id="metrics"></div>
+      <div class="footer">
+      <hr style="height: 2px; background-color: rgb(211, 128, 69); border: none;" />
+      <div class="footer-text">Created by: Saurabh Galgale</div>
+    </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
